@@ -1,0 +1,44 @@
+{
+    "clay": {
+        "ideal": {
+            "min": 80,
+            "max": 100
+        },
+        "needsIrrigation": {
+            "min": 60,
+            "max": 80
+        },
+        "dangerouslyLow": {
+            "min": 0,
+            "max": 60
+        }
+    },
+    "loamy": {
+        "ideal": {
+            "min": 80,
+            "max": 100
+        },
+        "needsIrrigation": {
+            "min": 60,
+            "max": 80
+        },
+        "dangerouslyLow": {
+            "min": 0,
+            "max": 60
+        }
+    },
+    "sandy": {
+        "ideal": {
+            "min": 80,
+            "max": 100
+        },
+        "needsIrrigation": {
+            "min": 60,
+            "max": 80
+        },
+        "dangerouslyLow": {
+            "min": 0,
+            "max": 60
+        }
+    }
+}
