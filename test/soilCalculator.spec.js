@@ -82,18 +82,6 @@ describe("Loamy Soil Calculator Feature", () => {
 
     expect(defineAction(soil)).toBe(actionMessages.dangerouslyLow);
   });
-
-  test("Should check if sandy soil has Ideal Moisture Levels", () => {
-    const soil = {
-      type: "loamy",
-      moistureLevel: randomNumber(
-        soilsInfo.loamy.ideal.min,
-        soilsInfo.loamy.ideal.max
-      ),
-    };
-
-    expect(defineAction(soil)).toBe(actionMessages.ideal);
-  });
 });
 
 describe("Sandy Soil Calculator Feature", () => {
@@ -119,5 +107,17 @@ describe("Sandy Soil Calculator Feature", () => {
     };
 
     expect(defineAction(soil)).toBe(actionMessages.dangerouslyLow);
+  });
+
+  test("Should check if sandy soil has Ideal Moisture Levels", () => {
+    const soil = {
+      type: "loamy",
+      moistureLevel: randomNumber(
+        soilsInfo.loamy.ideal.min,
+        soilsInfo.loamy.ideal.max
+      ),
+    };
+
+    expect(defineAction(soil)).toBe(actionMessages.ideal);
   });
 });
