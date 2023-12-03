@@ -1,5 +1,7 @@
 function randomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
+    const n = Math.floor(Math.random() * (max - min) + min);
+    console.log(n)
+    return n;
 }
 
 module.exports = { 

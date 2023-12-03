@@ -15,30 +15,30 @@
     },
     "loamy": {
         "ideal": {
-            "min": 80,
+            "min": 88,
             "max": 100
         },
         "needsIrrigation": {
-            "min": 60,
-            "max": 80
+            "min": 70,
+            "max": 88
         },
         "dangerouslyLow": {
             "min": 0,
-            "max": 60
+            "max": 70
         }
     },
     "sandy": {
         "ideal": {
-            "min": 80,
+            "min": 90,
             "max": 100
         },
         "needsIrrigation": {
-            "min": 60,
-            "max": 80
+            "min": 80,
+            "max": 90
         },
         "dangerouslyLow": {
             "min": 0,
-            "max": 60
+            "max": 80
         }
     }
 }
