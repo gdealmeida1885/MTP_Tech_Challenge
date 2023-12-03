@@ -1,4 +1,4 @@
-const { defineAction } = require("../soilCalculator.js");
+const { defineAction } = require("../soilCalculator.spec.js");
 const { randomNumber } = require("../support/random.js");
 const actionMessages = require("../fixtures/actionMessages.json");
 const soilsInfo = require("../fixtures/soilsInfo.json");
